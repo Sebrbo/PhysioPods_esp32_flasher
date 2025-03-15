@@ -6,11 +6,11 @@
             "chipFamily": "ESP32-S3",
             "parts": [
                 {
-                    "path": "firmware_esp32-s3.bin",
+                    "path": "firmware_esp32-s3-fh4r2-S3wareshare.bin",
                     "offset": "0x10000"
                 },
                 {
-                    "path": "spiffs_esp32-s3.bin",
+                    "path": "spiffs_esp32-s3-fh4r2-S3wareshare.bin",
                     "offset": "0x290000"
                 }
             ]
