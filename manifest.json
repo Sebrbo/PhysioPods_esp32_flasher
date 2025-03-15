@@ -1,0 +1,19 @@
+{
+    "name": "ESP32 Flasher",
+    "version": "1.0",
+    "builds": [
+        {
+            "chipFamily": "ESP32-S3",
+            "parts": [
+                {
+                    "path": "firmware_esp32-s3.bin",
+                    "offset": "0x10000"
+                },
+                {
+                    "path": "spiffs_esp32-s3.bin",
+                    "offset": "0x290000"
+                }
+            ]
+        }
+    ]
+}
